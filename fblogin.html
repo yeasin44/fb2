@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="short icon" href="./fb.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <style>
+        body{
+            background: rgb(101, 142, 163);
+            background: transparent;
+            
+        }
+        .border3{
+            justify-content: center;
+            border: 1px solid #DDDFE2;
+            width: 400px;
+            height: auto;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 2px 2px 10px 0  #606770;
+            margin-top: 200px;
+            margin-left: 490px;
+
+        }
+            
+        
+    
+
+.email input{
+    /* position: relative; */
+    padding: 20px;
+    margin: 20px 0;
+    width: 300px;
+    border: 1px solid #DDDFE2;
+    margin-left: 28px;
+    border-radius: 5px;
+    
+}
+.password input{
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #DDDFE2;
+    margin-left: 28px;
+    border-radius: 5px;
+    
+}
+.login button{
+    padding: 15px;
+    width: 340px;
+    border: 1px solid #1877F2;
+    margin-left: 28px;
+    border-radius: 5px;
+    background: #1877F2;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.forgot_pass #f{
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 20px;
+    color: #1877F2;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+       
+    </style>
+</head>
+<body>
+    <div class="border3"> 
+        <form method="POST">
+            <div class="email">
+                <input type="email" name="email" placeholder="Eamil address or phone number">
+            </div>
+            <div class="password">
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="login">
+                <button>Login</button>
+            </div>
+            <div class="forgot_pass">
+                <h4 id="f">Forgotton password?</h4>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>
